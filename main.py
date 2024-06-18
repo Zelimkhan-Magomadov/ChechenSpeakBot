@@ -29,4 +29,4 @@ def handle_message(message):
 
 
 print('Bot started')
-bot.polling(interval=5)
+bot.infinity_polling(interval=3)
